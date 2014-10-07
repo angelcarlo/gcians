@@ -17,7 +17,7 @@
         <preference name="phonegap-version" value="3.3.0" />
    	 <access origin="*" subdomains="true" />
         <access uri="*" subdomains="true" />
-		<access uri="http://gcians.uphero.com/login.php" subdomains="true" />
+		
         <feature name="http://api.phonegap.com/1.0/network"/>
 		<feature name="http://api.phonegap.com/1.0/geolocation"/>
         <feature name="InAppBrowser">
