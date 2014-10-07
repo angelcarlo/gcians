@@ -19,12 +19,13 @@
         <access uri="*" subdomains="true" />
 		<access uri="http://gcians.uphero.com/login.php" subdomains="true" />
         <feature name="http://api.phonegap.com/1.0/network"/>
+		<feature name="http://api.phonegap.com/1.0/geolocation"/>
         <feature name="InAppBrowser">
 		<param name="android-package" value="org.apache.cordova.InAppBrowser" />
         </feature>
         
 		
-	
+		<gap:plugin name="org.apache.cordova.geolocation" />
         
         <preference name="orientation" value="portrait" />
         <preference name="fullscreen" value="true" />
